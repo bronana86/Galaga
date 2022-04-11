@@ -223,7 +223,7 @@ GameObject:
   - component: {fileID: 1075893329}
   m_Layer: 0
   m_Name: Player Ship
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -240,7 +240,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70d023968d95bac46aeb46d767d1ccbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteRenderer: {fileID: 0}
   still: {fileID: 21300000, guid: 66ad646bcc8aeb945ba04c7d0332ad3e, type: 3}
   left: {fileID: 21300000, guid: 4950acc6dd0793743b0ad13a6a34e4a2, type: 3}
   right: {fileID: 21300000, guid: 2dc20a4d77afefe4eb66e6bbaf6cdf22, type: 3}
@@ -381,4 +380,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrShots: 0
-  MaxShots: 0
+  MaxShots: 2
+  bulletPrefab: {fileID: 5581531589925868743, guid: 13b6e3386e9c473489ba77e29143bc49, type: 3}
