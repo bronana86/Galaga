@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 5698927}
   - component: {fileID: 5698926}
   - component: {fileID: 5698925}
+  - component: {fileID: 5698929}
   m_Layer: 0
   m_Name: Butterfly (10)
   m_TagString: Butterfly
@@ -267,6 +268,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5698929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5698923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &19277146
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,6 +293,7 @@ GameObject:
   - component: {fileID: 19277150}
   - component: {fileID: 19277149}
   - component: {fileID: 19277148}
+  - component: {fileID: 19277152}
   m_Layer: 0
   m_Name: Butterfly (8)
   m_TagString: Butterfly
@@ -411,6 +425,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &19277152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19277146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &54764118
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,6 +450,7 @@ GameObject:
   - component: {fileID: 54764122}
   - component: {fileID: 54764121}
   - component: {fileID: 54764120}
+  - component: {fileID: 54764124}
   m_Layer: 0
   m_Name: Butterfly (11)
   m_TagString: Butterfly
@@ -555,6 +582,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &54764124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54764118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &223544298
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,6 +607,7 @@ GameObject:
   - component: {fileID: 223544302}
   - component: {fileID: 223544301}
   - component: {fileID: 223544300}
+  - component: {fileID: 223544304}
   m_Layer: 0
   m_Name: Butterfly (15)
   m_TagString: Butterfly
@@ -699,6 +739,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &223544304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223544298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &280885025
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,6 +764,7 @@ GameObject:
   - component: {fileID: 280885029}
   - component: {fileID: 280885028}
   - component: {fileID: 280885027}
+  - component: {fileID: 280885031}
   m_Layer: 0
   m_Name: Butterfly (6)
   m_TagString: Butterfly
@@ -843,6 +896,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &280885031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280885025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &301342338
 GameObject:
   m_ObjectHideFlags: 0
@@ -856,6 +921,7 @@ GameObject:
   - component: {fileID: 301342342}
   - component: {fileID: 301342341}
   - component: {fileID: 301342340}
+  - component: {fileID: 301342344}
   m_Layer: 0
   m_Name: Boss (2)
   m_TagString: Boss
@@ -987,6 +1053,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &301342344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301342338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &350139164
 GameObject:
   m_ObjectHideFlags: 0
@@ -1000,6 +1078,7 @@ GameObject:
   - component: {fileID: 350139168}
   - component: {fileID: 350139167}
   - component: {fileID: 350139166}
+  - component: {fileID: 350139170}
   m_Layer: 0
   m_Name: Bee (11)
   m_TagString: Bee
@@ -1131,6 +1210,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &350139170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350139164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &376066790
 GameObject:
   m_ObjectHideFlags: 0
@@ -1144,6 +1235,7 @@ GameObject:
   - component: {fileID: 376066794}
   - component: {fileID: 376066793}
   - component: {fileID: 376066792}
+  - component: {fileID: 376066796}
   m_Layer: 0
   m_Name: Butterfly (5)
   m_TagString: Butterfly
@@ -1275,6 +1367,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &376066796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376066790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &444163604
 GameObject:
   m_ObjectHideFlags: 0
@@ -1622,6 +1726,7 @@ GameObject:
   - component: {fileID: 562059725}
   - component: {fileID: 562059724}
   - component: {fileID: 562059723}
+  - component: {fileID: 562059727}
   m_Layer: 0
   m_Name: Bee (6)
   m_TagString: Bee
@@ -1753,6 +1858,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &562059727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562059721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &605952907
 GameObject:
   m_ObjectHideFlags: 0
@@ -1910,6 +2027,7 @@ GameObject:
   - component: {fileID: 624062404}
   - component: {fileID: 624062403}
   - component: {fileID: 624062402}
+  - component: {fileID: 624062406}
   m_Layer: 0
   m_Name: Butterfly (7)
   m_TagString: Butterfly
@@ -2041,6 +2159,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &624062406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624062400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &676980562
 GameObject:
   m_ObjectHideFlags: 0
@@ -2054,6 +2184,7 @@ GameObject:
   - component: {fileID: 676980566}
   - component: {fileID: 676980565}
   - component: {fileID: 676980564}
+  - component: {fileID: 676980568}
   m_Layer: 0
   m_Name: Bee (18)
   m_TagString: Bee
@@ -2185,6 +2316,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &676980568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676980562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705434351
 GameObject:
   m_ObjectHideFlags: 0
@@ -2198,6 +2341,7 @@ GameObject:
   - component: {fileID: 705434355}
   - component: {fileID: 705434354}
   - component: {fileID: 705434353}
+  - component: {fileID: 705434357}
   m_Layer: 0
   m_Name: Bee (2)
   m_TagString: Bee
@@ -2329,6 +2473,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &705434357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705434351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &727099008
 GameObject:
   m_ObjectHideFlags: 0
@@ -2342,6 +2498,7 @@ GameObject:
   - component: {fileID: 727099012}
   - component: {fileID: 727099011}
   - component: {fileID: 727099010}
+  - component: {fileID: 727099014}
   m_Layer: 0
   m_Name: Bee (7)
   m_TagString: Bee
@@ -2473,6 +2630,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &727099014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727099008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &765470144
 GameObject:
   m_ObjectHideFlags: 0
@@ -2486,6 +2655,7 @@ GameObject:
   - component: {fileID: 765470148}
   - component: {fileID: 765470147}
   - component: {fileID: 765470146}
+  - component: {fileID: 765470150}
   m_Layer: 0
   m_Name: Butterfly (4)
   m_TagString: Butterfly
@@ -2617,6 +2787,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &765470150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765470144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &822316689
 GameObject:
   m_ObjectHideFlags: 0
@@ -2630,6 +2812,7 @@ GameObject:
   - component: {fileID: 822316693}
   - component: {fileID: 822316692}
   - component: {fileID: 822316691}
+  - component: {fileID: 822316695}
   m_Layer: 0
   m_Name: Bee (13)
   m_TagString: Bee
@@ -2761,6 +2944,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &822316695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822316689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &837311440
 GameObject:
   m_ObjectHideFlags: 0
@@ -2774,6 +2969,7 @@ GameObject:
   - component: {fileID: 837311444}
   - component: {fileID: 837311443}
   - component: {fileID: 837311442}
+  - component: {fileID: 837311446}
   m_Layer: 0
   m_Name: Bee (16)
   m_TagString: Bee
@@ -2905,6 +3101,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &837311446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837311440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &901926671
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2985,6 +3193,7 @@ GameObject:
   - component: {fileID: 949771009}
   - component: {fileID: 949771008}
   - component: {fileID: 949771007}
+  - component: {fileID: 949771011}
   m_Layer: 0
   m_Name: Bee (10)
   m_TagString: Bee
@@ -3116,6 +3325,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &949771011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949771005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &974451023
 GameObject:
   m_ObjectHideFlags: 0
@@ -3129,6 +3350,7 @@ GameObject:
   - component: {fileID: 974451027}
   - component: {fileID: 974451026}
   - component: {fileID: 974451025}
+  - component: {fileID: 974451029}
   m_Layer: 0
   m_Name: Bee (1)
   m_TagString: Bee
@@ -3260,6 +3482,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &974451029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974451023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &984580956
 GameObject:
   m_ObjectHideFlags: 0
@@ -3273,6 +3507,7 @@ GameObject:
   - component: {fileID: 984580960}
   - component: {fileID: 984580959}
   - component: {fileID: 984580958}
+  - component: {fileID: 984580962}
   m_Layer: 0
   m_Name: Butterfly (9)
   m_TagString: Butterfly
@@ -3404,6 +3639,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &984580962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984580956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1001938377
 GameObject:
   m_ObjectHideFlags: 0
@@ -3417,6 +3664,7 @@ GameObject:
   - component: {fileID: 1001938381}
   - component: {fileID: 1001938380}
   - component: {fileID: 1001938379}
+  - component: {fileID: 1001938383}
   m_Layer: 0
   m_Name: Butterfly (14)
   m_TagString: Butterfly
@@ -3548,6 +3796,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1001938383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001938377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1032173332
 GameObject:
   m_ObjectHideFlags: 0
@@ -3561,6 +3821,7 @@ GameObject:
   - component: {fileID: 1032173336}
   - component: {fileID: 1032173335}
   - component: {fileID: 1032173334}
+  - component: {fileID: 1032173338}
   m_Layer: 0
   m_Name: Bee (15)
   m_TagString: Bee
@@ -3692,6 +3953,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1032173338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032173332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1073253077
 GameObject:
   m_ObjectHideFlags: 0
@@ -3705,6 +3978,7 @@ GameObject:
   - component: {fileID: 1073253081}
   - component: {fileID: 1073253080}
   - component: {fileID: 1073253079}
+  - component: {fileID: 1073253083}
   m_Layer: 0
   m_Name: Boss (4)
   m_TagString: Boss
@@ -3836,6 +4110,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1073253083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073253077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1075893325
 GameObject:
   m_ObjectHideFlags: 0
@@ -4108,6 +4394,7 @@ GameObject:
   - component: {fileID: 1218868974}
   - component: {fileID: 1218868973}
   - component: {fileID: 1218868972}
+  - component: {fileID: 1218868976}
   m_Layer: 0
   m_Name: Bee (3)
   m_TagString: Bee
@@ -4239,6 +4526,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1218868976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218868970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1226059054
 GameObject:
   m_ObjectHideFlags: 0
@@ -4252,6 +4551,7 @@ GameObject:
   - component: {fileID: 1226059058}
   - component: {fileID: 1226059057}
   - component: {fileID: 1226059056}
+  - component: {fileID: 1226059060}
   m_Layer: 0
   m_Name: Bee (20)
   m_TagString: Bee
@@ -4383,6 +4683,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1226059060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226059054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1227023734
 GameObject:
   m_ObjectHideFlags: 0
@@ -4396,6 +4708,7 @@ GameObject:
   - component: {fileID: 1227023738}
   - component: {fileID: 1227023737}
   - component: {fileID: 1227023736}
+  - component: {fileID: 1227023740}
   m_Layer: 0
   m_Name: Butterfly (3)
   m_TagString: Butterfly
@@ -4527,6 +4840,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1227023740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227023734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1392123411
 GameObject:
   m_ObjectHideFlags: 0
@@ -4617,6 +4942,7 @@ MonoBehaviour:
   bee: {fileID: 605952907}
   butterfly: {fileID: 1844914362}
   boss: {fileID: 2074660011}
+  checker: {fileID: 0}
 --- !u!1 &1399861721
 GameObject:
   m_ObjectHideFlags: 0
@@ -4630,6 +4956,7 @@ GameObject:
   - component: {fileID: 1399861725}
   - component: {fileID: 1399861724}
   - component: {fileID: 1399861723}
+  - component: {fileID: 1399861727}
   m_Layer: 0
   m_Name: Boss (3)
   m_TagString: Boss
@@ -4761,6 +5088,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1399861727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399861721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1440785705
 GameObject:
   m_ObjectHideFlags: 0
@@ -4806,6 +5145,7 @@ GameObject:
   - component: {fileID: 1539746957}
   - component: {fileID: 1539746956}
   - component: {fileID: 1539746955}
+  - component: {fileID: 1539746959}
   m_Layer: 0
   m_Name: Bee (19)
   m_TagString: Bee
@@ -4937,6 +5277,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1539746959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539746953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1552525566
 GameObject:
   m_ObjectHideFlags: 0
@@ -4950,6 +5302,7 @@ GameObject:
   - component: {fileID: 1552525570}
   - component: {fileID: 1552525569}
   - component: {fileID: 1552525568}
+  - component: {fileID: 1552525572}
   m_Layer: 0
   m_Name: Bee (9)
   m_TagString: Bee
@@ -5081,6 +5434,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1552525572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552525566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1588133491
 GameObject:
   m_ObjectHideFlags: 0
@@ -5094,6 +5459,7 @@ GameObject:
   - component: {fileID: 1588133495}
   - component: {fileID: 1588133494}
   - component: {fileID: 1588133493}
+  - component: {fileID: 1588133497}
   m_Layer: 0
   m_Name: Butterfly (1)
   m_TagString: Butterfly
@@ -5225,6 +5591,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1588133497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588133491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1590552397
 GameObject:
   m_ObjectHideFlags: 0
@@ -5238,6 +5616,7 @@ GameObject:
   - component: {fileID: 1590552401}
   - component: {fileID: 1590552400}
   - component: {fileID: 1590552399}
+  - component: {fileID: 1590552403}
   m_Layer: 0
   m_Name: Butterfly (12)
   m_TagString: Butterfly
@@ -5369,6 +5748,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1590552403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590552397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1652569348
 GameObject:
   m_ObjectHideFlags: 0
@@ -5382,6 +5773,7 @@ GameObject:
   - component: {fileID: 1652569352}
   - component: {fileID: 1652569351}
   - component: {fileID: 1652569350}
+  - component: {fileID: 1652569354}
   m_Layer: 0
   m_Name: Butterfly (13)
   m_TagString: Butterfly
@@ -5513,6 +5905,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1652569354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652569348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1703519920
 GameObject:
   m_ObjectHideFlags: 0
@@ -5526,6 +5930,7 @@ GameObject:
   - component: {fileID: 1703519924}
   - component: {fileID: 1703519923}
   - component: {fileID: 1703519922}
+  - component: {fileID: 1703519926}
   m_Layer: 0
   m_Name: Bee (8)
   m_TagString: Bee
@@ -5657,6 +6062,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1703519926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703519920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1783147173
 GameObject:
   m_ObjectHideFlags: 0
@@ -5670,6 +6087,7 @@ GameObject:
   - component: {fileID: 1783147177}
   - component: {fileID: 1783147176}
   - component: {fileID: 1783147175}
+  - component: {fileID: 1783147179}
   m_Layer: 0
   m_Name: Butterfly (2)
   m_TagString: Butterfly
@@ -5801,6 +6219,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1783147179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783147173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1838923296
 GameObject:
   m_ObjectHideFlags: 0
@@ -5814,6 +6244,7 @@ GameObject:
   - component: {fileID: 1838923300}
   - component: {fileID: 1838923299}
   - component: {fileID: 1838923298}
+  - component: {fileID: 1838923302}
   m_Layer: 0
   m_Name: Boss (1)
   m_TagString: Boss
@@ -5945,6 +6376,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1838923302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838923296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1844914362
 GameObject:
   m_ObjectHideFlags: 0
@@ -6102,6 +6545,7 @@ GameObject:
   - component: {fileID: 1845230383}
   - component: {fileID: 1845230382}
   - component: {fileID: 1845230381}
+  - component: {fileID: 1845230385}
   m_Layer: 0
   m_Name: Bee (12)
   m_TagString: Bee
@@ -6233,6 +6677,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1845230385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845230379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1887432976
 GameObject:
   m_ObjectHideFlags: 0
@@ -6246,6 +6702,7 @@ GameObject:
   - component: {fileID: 1887432980}
   - component: {fileID: 1887432979}
   - component: {fileID: 1887432978}
+  - component: {fileID: 1887432982}
   m_Layer: 0
   m_Name: Bee (17)
   m_TagString: Bee
@@ -6377,6 +6834,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1887432982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887432976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1942102373
 GameObject:
   m_ObjectHideFlags: 0
@@ -6390,6 +6859,7 @@ GameObject:
   - component: {fileID: 1942102377}
   - component: {fileID: 1942102376}
   - component: {fileID: 1942102375}
+  - component: {fileID: 1942102379}
   m_Layer: 0
   m_Name: Butterfly (16)
   m_TagString: Butterfly
@@ -6521,6 +6991,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1942102379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942102373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1974321451
 GameObject:
   m_ObjectHideFlags: 0
@@ -6534,6 +7016,7 @@ GameObject:
   - component: {fileID: 1974321455}
   - component: {fileID: 1974321454}
   - component: {fileID: 1974321453}
+  - component: {fileID: 1974321457}
   m_Layer: 0
   m_Name: Bee (5)
   m_TagString: Bee
@@ -6665,6 +7148,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1974321457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974321451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2036901457
 GameObject:
   m_ObjectHideFlags: 0
@@ -6678,6 +7173,7 @@ GameObject:
   - component: {fileID: 2036901461}
   - component: {fileID: 2036901460}
   - component: {fileID: 2036901459}
+  - component: {fileID: 2036901463}
   m_Layer: 0
   m_Name: Bee (4)
   m_TagString: Bee
@@ -6809,6 +7305,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2036901463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036901457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2050071724
 GameObject:
   m_ObjectHideFlags: 0
@@ -6822,6 +7330,7 @@ GameObject:
   - component: {fileID: 2050071728}
   - component: {fileID: 2050071727}
   - component: {fileID: 2050071726}
+  - component: {fileID: 2050071730}
   m_Layer: 0
   m_Name: Bee (14)
   m_TagString: Bee
@@ -6953,6 +7462,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2050071730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050071724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2074660011
 GameObject:
   m_ObjectHideFlags: 0
