@@ -5238,6 +5238,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1392123412}
+  - component: {fileID: 1392123414}
+  - component: {fileID: 1392123413}
   m_Layer: 0
   m_Name: Enemies
   m_TagString: Untagged
@@ -5302,6 +5304,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1392123413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392123411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a879e7a84326654bab3362bfcc865e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySpawn: []
+  bee: {fileID: 605952907}
+  butterfly: {fileID: 1844914362}
+  boss: {fileID: 2074660011}
+  checker: {fileID: 0}
+--- !u!114 &1392123414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392123411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328caafca41faf54f83e6d3b26957b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1399861721
 GameObject:
   m_ObjectHideFlags: 0
