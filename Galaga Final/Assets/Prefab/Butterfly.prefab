@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6076925333854835107}
   - component: {fileID: 6076925333854835104}
   - component: {fileID: 6076925333854835105}
+  - component: {fileID: 1660044764631177083}
   m_Layer: 0
   m_Name: Butterfly
   m_TagString: Butterfly
@@ -144,3 +145,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82eae918d8a148a4f85a080bfdf3af50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hurtSprite: {fileID: 0}
+--- !u!95 &1660044764631177083
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6076925333854835111}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8689c3aa0d93b490bb210bc365075512, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
