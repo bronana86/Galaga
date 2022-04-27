@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8354077932658563217}
   - component: {fileID: 8354077932658563216}
   - component: {fileID: 8354077932658563219}
+  - component: {fileID: 5257715513923315892}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Boss
@@ -144,3 +145,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82eae918d8a148a4f85a080bfdf3af50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hurtSprite: {fileID: 0}
+--- !u!95 &5257715513923315892
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8354077932658563221}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0653abf4cb5734e788fe7f685e34dad5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
