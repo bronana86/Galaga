@@ -716,11 +716,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &605952907 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3911699648568886094, guid: eb55155e31e3e6047a3aece8e1df198e, type: 3}
-  m_PrefabInstance: {fileID: 3911699647963732165}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &605952909 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3911699648568886088, guid: eb55155e31e3e6047a3aece8e1df198e, type: 3}
@@ -943,6 +938,7 @@ GameObject:
   - component: {fileID: 1075893330}
   - component: {fileID: 1075893329}
   - component: {fileID: 1075893333}
+  - component: {fileID: 1075893334}
   m_Layer: 0
   m_Name: Player Ship
   m_TagString: Player
@@ -1089,6 +1085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4025684c9e6c044ba7e4db1b5913f75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dead: 0
 --- !u!114 &1075893332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1102,8 +1099,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrShots: 0
-  MaxShots: 2
+  MaxShots: 1
   bulletPrefab: {fileID: 5581531589925868743, guid: 13b6e3386e9c473489ba77e29143bc49, type: 3}
+  dead: 0
 --- !u!114 &1075893333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1120,6 +1118,18 @@ MonoBehaviour:
   extraLife2: {fileID: 901926673}
   maxLives: 0
   currLives: 0
+--- !u!114 &1075893334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075893325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25b499beaaa0f084f9a65c5ff245734f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1105528906
 GameObject:
   m_ObjectHideFlags: 0
@@ -1367,9 +1377,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemySpawn: []
-  bee: {fileID: 605952907}
-  butterfly: {fileID: 1844914362}
-  boss: {fileID: 2074660011}
+  bee: {fileID: 3911699648568886094, guid: eb55155e31e3e6047a3aece8e1df198e, type: 3}
+  butterfly: {fileID: 6076925333854835111, guid: 73ab0c930e767bf4e90f2440ae751b3b, type: 3}
+  boss: {fileID: 8354077932658563221, guid: 570eb26fffd597e498b134fe0677c36b, type: 3}
 --- !u!1 &1440785705
 GameObject:
   m_ObjectHideFlags: 0
@@ -1402,11 +1412,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1844914362 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6076925333854835111, guid: 73ab0c930e767bf4e90f2440ae751b3b, type: 3}
-  m_PrefabInstance: {fileID: 6076925332177975581}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1844914363 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6076925333854835110, guid: 73ab0c930e767bf4e90f2440ae751b3b, type: 3}
@@ -1543,11 +1548,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2074660011 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8354077932658563221, guid: 570eb26fffd597e498b134fe0677c36b, type: 3}
-  m_PrefabInstance: {fileID: 8354077933054448702}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2074660012 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8354077932658563218, guid: 570eb26fffd597e498b134fe0677c36b, type: 3}
