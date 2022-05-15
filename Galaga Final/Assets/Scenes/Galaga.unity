@@ -495,6 +495,7 @@ MonoBehaviour:
   gameover: {fileID: 1304622136}
   hScore: {fileID: 626401495}
   hScoreMan: {fileID: 0}
+  score: {fileID: 0}
   stageNumber: 0
 --- !u!1 &457399907
 GameObject:
@@ -1992,6 +1993,10 @@ MonoBehaviour:
   butterfly: {fileID: 6076925333854835111, guid: 73ab0c930e767bf4e90f2440ae751b3b, type: 3}
   boss: {fileID: 8354077932658563221, guid: 570eb26fffd597e498b134fe0677c36b, type: 3}
   side: 0
+  timer: 0
+  difficulty: 20000
+  stageNumber: 1
+  stage: {fileID: 703466930}
 --- !u!1 &1440785705
 GameObject:
   m_ObjectHideFlags: 0
