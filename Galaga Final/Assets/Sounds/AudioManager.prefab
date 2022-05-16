@@ -48,34 +48,53 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 837d307f2a5a8e9409acf0f261b33fc4, type: 3}
     volume: 1
     pitch: 1
+    loop: 0
     source: {fileID: 0}
   - name: Startlevel
     clip: {fileID: 8300000, guid: 1214ab5e481874be3954903d46ca53cb, type: 3}
     volume: 1
     pitch: 1
+    loop: 0
     source: {fileID: 0}
   - name: Shoot
     clip: {fileID: 8300000, guid: 14f2b6680a4ee4faa88bc991e372b049, type: 3}
     volume: 1
     pitch: 1
+    loop: 0
     source: {fileID: 0}
   - name: Butterflydeath
     clip: {fileID: 8300000, guid: b5c9bd1a8a4414322a7d60759f0ba506, type: 3}
     volume: 1
     pitch: 1
+    loop: 0
     source: {fileID: 0}
   - name: Bosshurt
     clip: {fileID: 8300000, guid: 2d0d2745f026848ec875f50c2d253457, type: 3}
     volume: 1
     pitch: 1
+    loop: 0
     source: {fileID: 0}
   - name: Bossdeath
     clip: {fileID: 8300000, guid: 236d5890f41fe4a3e9433f35946cd536, type: 3}
     volume: 1
     pitch: 1
+    loop: 0
     source: {fileID: 0}
   - name: Theme
-    clip: {fileID: 8300000, guid: a93288ce6d5c5459c9ffee0e5be32b64, type: 3}
+    clip: {fileID: 8300000, guid: a1a05a2e8debb4226bc4f86b1a0df019, type: 3}
     volume: 1
     pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Entry
+    clip: {fileID: 8300000, guid: 316da8d190b3b4d9a9bc0bd9ef784737, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Playerdeath
+    clip: {fileID: 8300000, guid: 3a84cc1bcf75f42a9acb908318d90ab0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
     source: {fileID: 0}
