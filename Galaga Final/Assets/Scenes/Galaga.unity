@@ -1194,7 +1194,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -22.977942, y: 0}
+  m_AnchoredPosition: {x: -7.4285736, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &901926671
@@ -1741,7 +1741,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -23.161764, y: 0}
+  m_AnchoredPosition: {x: -7.7142906, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1392123411
@@ -1796,7 +1796,7 @@ MonoBehaviour:
   boss: {fileID: 8354077932658563221, guid: 570eb26fffd597e498b134fe0677c36b, type: 3}
   side: 0
   timer: 0
-  difficulty: 20000
+  difficulty: 15000
   stageNumber: 1
   stage: {fileID: 703466930}
 --- !u!1 &1440785705
